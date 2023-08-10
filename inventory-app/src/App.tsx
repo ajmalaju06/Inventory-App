@@ -6,4 +6,4 @@ const App: React.FC = () => {
   return <HomeScreen />;
 };
 
-export default App;
+export default React.memo(App);
