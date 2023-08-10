@@ -17,7 +17,7 @@ import {
 } from '@chakra-ui/react';
 import EllipsisImg from '../../assets/ellipsis.svg';
 import { InventoryData } from '../../modals/InventoryModal';
-import FolderImg from '../../assets/folder-gray.svg'
+import FolderImg from '../../assets/folder-gray.svg';
 
 interface ProductListProps {
   handleupdateItem: (updateDetails: InventoryData) => void;
@@ -53,7 +53,7 @@ const ProductList: React.FC<ProductListProps> = ({
             <Image src={FolderImg} alt="folder" w={7} />
           </Box>
           <Box>
-            <Text fontSize={'md'} color={'gray.400'}>
+            <Text fontSize={'md'} color={'gray.400'} textAlign={'center'}>
               click the 'Add item' button to add a new item
             </Text>
           </Box>
