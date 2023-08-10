@@ -1,11 +1,9 @@
-
 import React from 'react';
 import './App.css';
 import HomeScreen from './pages/HomeScreen';
 
-
-function App() {
-  return <HomeScreen/>;
-}
+const App: React.FC = () => {
+  return <HomeScreen />;
+};
 
 export default App;
